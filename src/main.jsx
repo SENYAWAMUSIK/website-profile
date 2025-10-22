@@ -6,10 +6,10 @@ import Layout from "./Layout";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>
 );
