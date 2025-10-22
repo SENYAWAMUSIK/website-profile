@@ -10,7 +10,7 @@ export default function Layout() {
           <img
             src={senyawaLogo}
             alt="jumbotron-dij"
-            className="xl:w-3/5 m-auto object-cover"
+            className="xl:w-3/5 m-auto mt-18 xl:mt-5 object-cover"
           />
         </div>
       </div>
