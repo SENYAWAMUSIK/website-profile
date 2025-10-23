@@ -14,7 +14,7 @@ import spotify from "./assets/image/sosmed-icon/spotify.svg";
 export default function Layout() {
   return (
     <>
-      <div className="w-full relative">
+      <div className="w-full relative pb-10">
         <div className="top-0 right-0 bottom-0 left-0 h-screen fixed bg-[url(/bg.jpg)] bg-cover bg-center bg-no-repeat"></div>
 
         <div className="relative w-full py-10">
@@ -61,10 +61,10 @@ export default function Layout() {
             </div>
           </div>
 
-          {/* Personil Section */}
+          {/* PERSONIL SECTION */}
           <div className="mt-14 md:mt-16 xl:mt-26">
             <div className="w-full font-playwrite-au font-bold text-slate-100 text-center">
-              <ScrollReveal offset={700}>
+              <ScrollReveal offset={650}>
                 <h2 className="inline-block text-3xl md:text-5xl shadow-2xl shadow-slate-300 [text-shadow:_2px_2px_0_#000]">
                   Senyawa Personil
                 </h2>
@@ -72,13 +72,13 @@ export default function Layout() {
             </div>
 
             <div className="2xl:mt-12">
-              <ScrollReveal offset={700}>
-                <div className="w-90 md:w-5/6 xl:w-[75%] 2xl:w-1/2 bg-stone-700/40 m-auto mt-8 md:mt-10 py-5 shadow-2xl shadow-slate-300 rounded-sm">
+              <ScrollReveal offset={650}>
+                <div className="w-85 md:w-5/6 xl:w-[75%] 2xl:w-1/2 bg-stone-700/40 m-auto mt-8 md:mt-10 py-5 shadow-2xl shadow-slate-300 rounded-sm">
                   <div className="w-full grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-5 md:pl-5 xl:pl-10 2xl:pl-0">
                     <img
                       src={chands}
                       alt="chands"
-                      className="w-58 2xl:w-68 m-auto md:order-2"
+                      className="w-58 2xl:w-68 m-auto md:order-2 border-1 border-slate-100/30 rounded-sm"
                     />
 
                     <div className="md:order-1 w-80 xl:w-90 m-auto text-left grid grid-cols-1 gap-y-2 md:gap-y-3 2xl:gap-y-4">
@@ -100,13 +100,13 @@ export default function Layout() {
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal offset={700}>
-                <div className="w-90 md:w-5/6 xl:w-[75%] 2xl:w-1/2 bg-stone-700/40 m-auto mt-8 md:mt-10 py-5 shadow-2xl shadow-slate-300 rounded-sm">
+              <ScrollReveal offset={650}>
+                <div className="w-85 md:w-5/6 xl:w-[75%] 2xl:w-1/2 bg-stone-700/40 m-auto mt-8 md:mt-10 py-5 shadow-2xl shadow-slate-300 rounded-sm">
                   <div className="w-full grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-5 md:pr-16 2xl:pr-0">
                     <img
                       src={ale}
                       alt="chands"
-                      className="w-58 2xl:w-68 m-auto"
+                      className="w-58 2xl:w-68 m-auto border-1 border-slate-100/30 rounded-sm"
                     />
 
                     <div className="w-80 xl:w-90 m-auto text-right grid grid-cols-1 gap-y-2 2xl:gap-y-4">
@@ -128,13 +128,13 @@ export default function Layout() {
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal offset={700}>
-                <div className="w-90 md:w-5/6 xl:w-[75%] 2xl:w-1/2 bg-stone-700/40 m-auto mt-8 md:mt-10 py-5 shadow-2xl shadow-slate-300 rounded-sm">
+              <ScrollReveal offset={650}>
+                <div className="w-85 md:w-5/6 xl:w-[75%] 2xl:w-1/2 bg-stone-700/40 m-auto mt-8 md:mt-10 py-5 shadow-2xl shadow-slate-300 rounded-sm">
                   <div className="w-full grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-5 md:pl-5 xl:pl-10 2xl:pl-0">
                     <img
                       src={guruh}
                       alt="chands"
-                      className="w-58 2xl:w-68 m-auto md:order-2"
+                      className="w-58 2xl:w-68 m-auto md:order-2 border-1 border-slate-100/30 rounded-sm"
                     />
 
                     <div className="md:order-1 w-80 xl:w-90 m-auto text-left grid grid-cols-1 gap-y-2 md:gap-y-3 2xl:gap-y-4">
@@ -156,13 +156,13 @@ export default function Layout() {
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal offset={700}>
-                <div className="w-90 md:w-5/6 xl:w-[75%] 2xl:w-1/2 bg-stone-700/40 m-auto mt-8 md:mt-10 py-5 shadow-2xl shadow-slate-300 rounded-sm">
+              <ScrollReveal offset={650}>
+                <div className="w-85 md:w-5/6 xl:w-[75%] 2xl:w-1/2 bg-stone-700/40 m-auto mt-8 md:mt-10 py-5 shadow-2xl shadow-slate-300 rounded-sm">
                   <div className="w-full grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-5 md:pr-16 2xl:pr-0">
                     <img
                       src={sukma}
                       alt="chands"
-                      className="w-58 2xl:w-68 m-auto"
+                      className="w-58 2xl:w-68 m-auto border-1 border-slate-100/30 rounded-sm"
                     />
 
                     <div className="w-80 xl:w-90 m-auto text-right grid grid-cols-1 gap-y-2 2xl:gap-y-4">
@@ -186,14 +186,13 @@ export default function Layout() {
             </div>
           </div>
 
-          {/* Sosmed Section */}
-          <ScrollReveal offset={700}>
-            <div className="w-md md:w-lg xl:w-xl m-auto py-3 bg-slate-800/50 mt-18 shadow-2xl shadow-slate-300 rounded-sm">
-              <h4 className="font-playwrite-au font-semibold tracking-wide text-center text-lg md:text-xl xl:text-2xl text-slate-100">
+          <ScrollReveal offset={900}>
+            <div className="w-85 md:w-lg xl:w-xl m-auto py-3 px-2 bg-slate-600/50 mt-18 shadow-2xl shadow-slate-300 rounded-sm">
+              <h4 className="font-playwrite-au font-semibold tracking-wide text-center text-md md:text-xl xl:text-2xl text-slate-100">
                 Kalian Bisa Dengarkan Karya Kami di
               </h4>
 
-              <div className="flex gap-x-5 items-center justify-center mt-5">
+              <div className="w-full m-auto flex gap-x-3 items-center justify-center mt-5">
                 <a href="#">
                   <img src={facebook} alt="facebook" className="w-12 h-12" />
                 </a>
